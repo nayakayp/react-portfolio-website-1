@@ -85,11 +85,13 @@ const Portfolio = () => {
                         </div>
 
                         <div className='portfolio__content'>
-                            <h3>{title}</h3>
-                            
-                            <div className='cta'>
-                                <a href={github} className='btn' target='_blank'>Github</a>
-                                <a href={explanation} className='btn btn-primary' target='_blank'>Detail / Demo</a>
+                            <div className="portfolio__content_container">
+                                <h3>{title}</h3>
+                                
+                                <div className='cta'>
+                                    <a href={github} className='btn' target='_blank'>Github</a>
+                                    <a href={explanation} className='btn btn-primary' target='_blank'>Detail / Demo</a>
+                                </div>
                             </div>
                         </div>   
 

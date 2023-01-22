@@ -13,6 +13,13 @@
     transition: var(--transition);
 }
 
+.portfolio__content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
@@ -27,14 +34,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height:50%;
+    height: 50%;
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 0 2rem;
 }
 
-.portfolio__item-cta {
+.portfolio__item .cta {
     display:flex;
     /* margin: 0; */
     gap: 1rem;
