@@ -1,6 +1,6 @@
 .portfolio__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,0.5fr);
     /* margin-top: 0.5rem; */
     gap: 2.5rem;
 }
@@ -21,6 +21,13 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+}
+
+.portfolio__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:50%;
 }
 
 .portfolio__item h3 {
